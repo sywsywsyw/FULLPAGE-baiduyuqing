@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>百度舆情</title>
+  <!-- <link href="https://cdn.bootcss.com/fullPage.js/2.7.9/jquery.fullPage.css" rel="stylesheet"> -->
+  <link rel="stylesheet" href="./css/jquery.fullPage.css">
+  <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+<div id="header">
+     <div class="headerz">
+       <a href="#" class="logo"></a>
+       <div class="headerzl">
+         <ul class="mala-nav-list mala-clearfix">
+           <li class="mala-nav-item"><a href="#" class="mala-nav-link">首页</a></li>
+           <li class="mala-nav-item"><a href="#" class="mala-nav-link">产品介绍</a></li>
+           <li class="mala-nav-item"><a href="#" class="mala-nav-link">用户版</a></li>
+         </ul>
+       </div>
+       <div class="headerzr">
+         <a href="#" class="xdl">登录</a>
+         <a href="#" id="J_app" class="nav-app">手机客户端<i></i></a>
+         <a href="http://sinan.baidu.com" target="_blank">百度司南</a>
+         <a href="http://sinan.baidu.com"  id="contact" class="contact">联系我们</a>
+         <a href="/zhengwu/home/Intro/apply" class="yellow">申请试用</a>
+       </div>
+     </div>
+</div>
+<div id="fullpage">
+<div class="section" id="section1">
+  <div class="shangyun">
+    <div class="sy"></div>
+  </div>
+  <div class="zhongyun">
+    <div class="zy"></div>
+  </div>
+  <div class="xiayun">
+    <div class="xy"></div>
+  </div>
+  <div class="dbzz">
+    <div class="center">
+      <div class="obj dachuan"></div>
+      <div class="obj zuoshan"></div>
+      <div class="obj youshan1"></div>
+      <div class="obj youshan2"></div>
+    </div>
+  </div>
+  <div class="jt">
+    <div class="jtz">
+      <a href=" index.html#fo2" class="jtd"></a>
+    </div>
+  </div>
+  <div class="center">
+    <div class="obj wenzi"></div>
+    <div class="obj feiji"></div>
+    <div class="obj denglu" id="lanse"></div>
+  </div>
+</div>
+<div class="section" id="section2">
+  <div class="center">
+    <div class="wenzi2f">
+      <div class="title">
+        <h3 class="lingxian">领先</h3>
+        <div class="text">
+          <h4>数据收集与处理</h4>
+          <p>15年专业数据收集与语义分析技术积累<br>卓越极致，不断攀登</p>
+        </div>
+      </div>
+    </div>
+    <div class="obj dashu"></div>
+  </div>
+  <div class="jt">
+    <div class="jtz">
+      <div class="square square-1"></div>
+      <div class="square square-2"></div>
+      <div class="square square-3"></div>
+      <div class="square square-4"></div>
+      <div class="square square-5"></div>
+      <a href="index.html#fo3" class="jtd"></a>
+    </div>
+  </div>
+</div>
+<div class="section"  id="section3">
+  <div class="top">
+    <div class="center">
+      <div class="square square-1"></div>
+      <div class="square square-2"></div>
+      <div class="square square-3"></div>
+      <div class="square square-4"></div>
+      <div class="square square-5"></div>
+    </div>
+  </div>
+  <div class="center">
+  <div class="wenzi2f">
+      <div class="title">
+        <h3 class="lingxian">全面</h3>
+        <div class="text">
+          <h4>舆情分析逻辑与架构</h4>
+          <p>声量诊断、传播分析、情感提炼、受众画像<br>有方法论，更有智慧</p>
+        </div>
+      </div>
+  </div>
+  <div class="obj dashu"></div>
+  </div>
+  <div class="db">
+  </div>
+  <div class="jt">
+  <div class="jtz">
+    <a href="index.html#fo4" class="jtd"></a>
+  </div>
+</div>
+</div>
+<div class="section"  id="section4">
+ <div class="center">
+ <div class="tao">
+ <div class="obj sanyuan"></div>
+  <div class="wenzi2f">
+    <div class="title">
+      <h3 class="lingxian">全面</h3>
+      <div class="text">
+        <h4>专业数据可视化</h4>
+        <p>非凡的数据洞悉和可视化能力<br>精研数据，惊艳所见</p>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="obj dashu"></div>
+</div>
+ <div class="dibu">
+   © 2014 Baidu<a href="http://www.baidu.com/duty/">使用百度前必读</a>
+ </div>
+</div>
+</div>
+</body>
+<!-- <script src="https://cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script> -->
+<!-- <script src="https://cdn.bootcss.com/fullPage.js/2.7.9/jquery.fullPage.js"></script> -->
+<script src="./js/jquery_84e4f8a.js"></script>
+<script src="./js/jquery.fullPage.js"></script>
+<!-- <script src="./js/index.js"></script> -->
+<script>
+  	$(function(){
+      $('#fullpage').fullpage({
+        // 滚动一屏幕的时间  毫秒
+        scrollingSpeed:700,
+        // 分享连接 index.html#fo1
+        anchors:['fo1','fo2','fo3','fo4'],
+        // 可以给群组选择器
+        // fixedElements:'nav,',
+        // paddingTop:20,
+        // paddingBottom:30,
+        // 当滚动到底部或顶部之后能否继续滚动 默认false
+        // continuousVertical:true,
+        // 小点点
+        navigation:true,
+        // 小点点左边还是右边
+        // navigationPosition:'left',
+        // 每一个小点的提示文字
+        navigationTooltips:['登录百度舆情','领先：数据收集与处理','全面：舆情分析逻辑与架构','专业：专业数据可视化'],
+        // 到当前小点是否出现提示文字
+        showActiveTooltip:true,
+        // // 进入一个屏幕会调用afterLoad;
+        // afterLoad:function(name,index){
+        //    //name是当前这张的名字 index当前是第几张
+        // }
+        // // 离开一个屏幕会调用onLeave;
+        // onleave:function(index,next,dir){
+        //   //index 从那张离开的 next去到那张  dir方向 向上up  向下down
+        //   if(index === 5){
+        //     $("#section5 h1").addClass('ff');
+        //   }
+        // }
+        onleave:function(index,next,dir){
+          //index 从那张离开的 next去到那张  dir方向 向上up  向下down
+          if(index === 1){
+            alert(1)
+            // $("#section5 h1").addClass('ff');
+          }
+        }
+      })
+    })
+</script>
+</html>
